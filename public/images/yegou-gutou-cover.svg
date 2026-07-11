@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-label="《野狗骨头》封面：90年代南方小城黄昏，两个少年并肩">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b1730"/>
+      <stop offset="32%" stop-color="#3a2a4d"/>
+      <stop offset="58%" stop-color="#7e4360"/>
+      <stop offset="78%" stop-color="#c9744a"/>
+      <stop offset="100%" stop-color="#f0b46b"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="74%" r="38%">
+      <stop offset="0%" stop-color="#ffe3a8" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#f6b56a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#f6b56a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#caa06a"/>
+      <stop offset="100%" stop-color="#8a6238"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0a16" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#0d0a16" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0d0a16" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1536" height="1024" fill="url(#sky)"/>
+  <rect width="1536" height="1024" fill="url(#sun)"/>
+
+  <!-- distant hills -->
+  <path d="M0 600 Q 260 540 520 590 T 1040 580 T 1536 600 L1536 720 L0 720 Z" fill="#3a2740" opacity="0.55"/>
+
+  <!-- buildings silhouette -->
+  <g fill="#161021">
+    <rect x="60" y="520" width="150" height="220"/>
+    <rect x="210" y="470" width="110" height="270"/>
+    <rect x="320" y="560" width="130" height="180"/>
+    <rect x="1080" y="500" width="140" height="240"/>
+    <rect x="1210" y="450" width="120" height="290"/>
+    <rect x="1330" y="540" width="150" height="200"/>
+  </g>
+  <!-- left cluster of low houses -->
+  <g fill="#1b1428">
+    <rect x="0" y="600" width="120" height="140"/>
+    <rect x="120" y="560" width="90" height="180"/>
+    <rect x="1416" y="600" width="120" height="140"/>
+  </g>
+  <!-- lit windows -->
+  <g fill="#f4c46b">
+    <rect x="92" y="560" width="16" height="20" opacity="0.9"/>
+    <rect x="132" y="560" width="16" height="20" opacity="0.7"/>
+    <rect x="92" y="610" width="16" height="20" opacity="0.8"/>
+    <rect x="240" y="510" width="14" height="18" opacity="0.85"/>
+    <rect x="270" y="510" width="14" height="18" opacity="0.6"/>
+    <rect x="240" y="560" width="14" height="18" opacity="0.7"/>
+    <rect x="1110" y="540" width="15" height="20" opacity="0.85"/>
+    <rect x="1145" y="540" width="15" height="20" opacity="0.7"/>
+    <rect x="1240" y="500" width="14" height="18" opacity="0.8"/>
+    <rect x="1272" y="500" width="14" height="18" opacity="0.6"/>
+    <rect x="1360" y="580" width="15" height="20" opacity="0.75"/>
+  </g>
+
+  <!-- laundry lines -->
+  <g stroke="#0e0a16" stroke-width="2" opacity="0.7">
+    <path d="M120 470 Q 300 450 470 478" fill="none"/>
+    <path d="M1070 450 Q 1240 430 1416 460" fill="none"/>
+  </g>
+  <g fill="#e9d6c2" opacity="0.85">
+    <rect x="180" y="466" width="22" height="30" rx="3"/>
+    <rect x="250" y="458" width="20" height="28" rx="3"/>
+    <rect x="330" y="466" width="24" height="32" rx="3"/>
+    <rect x="1150" y="442" width="22" height="30" rx="3"/>
+    <rect x="1230" y="436" width="20" height="28" rx="3"/>
+    <rect x="1320" y="448" width="24" height="32" rx="3"/>
+  </g>
+
+  <!-- ground / lane -->
+  <rect x="0" y="720" width="1536" height="304" fill="url(#ground)"/>
+  <path d="M520 1024 L 700 720 L 836 720 L 1016 1024 Z" fill="#a87c4c" opacity="0.8"/>
+
+  <!-- bicycle -->
+  <g stroke="#0e0a16" stroke-width="4" fill="none" opacity="0.85">
+    <circle cx="470" cy="800" r="34"/>
+    <circle cx="566" cy="800" r="34"/>
+    <path d="M470 800 L 520 742 L 566 800 M520 742 L 540 742 M470 800 L 540 742"/>
+  </g>
+
+  <!-- two figures, side by side -->
+  <g fill="#0e0a16">
+    <!-- figure A (slightly taller) -->
+    <circle cx="700" cy="726" r="20"/>
+    <path d="M680 752 Q 700 740 720 752 L 726 868 L 674 868 Z"/>
+    <!-- figure B -->
+    <circle cx="760" cy="738" r="18"/>
+    <path d="M742 762 Q 760 750 778 762 L 783 868 L 737 868 Z"/>
+  </g>
+  <!-- subtle rim light on figures -->
+  <g fill="#f0b46b" opacity="0.5">
+    <path d="M720 752 L 726 868 L 718 868 L 714 754 Z"/>
+    <path d="M778 762 L 783 868 L 776 868 L 772 764 Z"/>
+  </g>
+
+  <!-- scrim for title legibility -->
+  <rect width="1536" height="1024" fill="url(#scrim)"/>
+  <rect width="1536" height="1024" filter="url(#grain)" opacity="0.05"/>
+
+  <!-- title -->
+  <text x="80" y="924" font-family="'Noto Serif SC','Songti SC',serif" font-size="108" font-weight="700" fill="#fdf6ec" letter-spacing="6">野狗骨头</text>
+  <text x="84" y="968" font-family="Georgia,serif" font-size="30" fill="#f0b46b" letter-spacing="8">YEGOU GUTOU · 双向救赎</text>
+</svg>
