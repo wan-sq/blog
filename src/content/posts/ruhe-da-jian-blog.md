@@ -1,7 +1,9 @@
 ---
 title: 手把手：从零搭一个支持 Markdown 的个人博客，并免费部署到 GitHub Pages
 date: 2026-07-11
-tags: [博客, 教程, GitHub Pages]
+tags:
+  - 博客
+  - 教程
 excerpt: 不需要会命令行、不需要服务器，跟着做就能拥有一个自己的博客，写文章像写备忘录一样简单。
 ---
 
